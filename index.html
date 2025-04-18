@@ -17,7 +17,12 @@
             background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url('purple.png');
             background-repeat: repeat;
             background-size: 906px 620px;
+            width: 100%;
+            height: 100vh;
             font-family: 'MyPixel-font', monospace;
+            background-attachment: fixed; /* This keeps the background fixed while the content moves */
+            position: relative;
+            z-index: 1;
             font-size: 15px;
             margin: 0;
             padding: 0;
@@ -210,6 +215,7 @@
         .achievements-section {
             background-color: #1E0A28;
             background-attachment: fixed;
+            image-rendering: pixelated;
             padding: 20px;
             border-radius: 20px;
             margin-top: 20px;
@@ -218,6 +224,20 @@
             line-height: 1.5;
             border-image-slice: 1;
             margin-bottom: 25px;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed; /* This keeps the background fixed while the content moves */
+            position: relative;
+            z-index: 1;
+          }
+
+        .content {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: white;
+          z-index: 2; /* Makes sure content appears on top */
         }
         .achievement-icon{
             opacity: 0;
@@ -289,7 +309,7 @@
     </style>
     </head>
 <body>
-   <div class= "glass-card"> 
+   <div class= "content"> 
         <div class=" container">
             <div class=" achievements-section">
                 <div class="centerize">
