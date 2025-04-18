@@ -22,7 +22,7 @@
             position: relative;
             z-index: 1;
             background-size: 100% auto;
-            font-family: 'VT323', monospace;
+            font-family: 'public-pixel-font', monospace;
             font-size: 15px;
             margin: 0;
             padding: 0;
@@ -282,49 +282,12 @@
         height: 100px;
     }
     @font-face {
-      font-family: 'MyPixelFont';
-      src: url('fonts/PixelFont.ttf') format('truetype');
+      font-family: 'public-pixel-font' , url('https://www.fontspace.com/public-pixel-font-f72305') format('truetype');
     }
     
     .pixel-text {
-      font-family: 'VT323', monospace;
+      font-family: 'public-pixel-font', monospace;
     }
-    .xp-mc-bar {
-  width: 100%;
-  max-width: 400px;
-  margin: 20px auto;
-  text-align: center;
-  font-family: 'Press Start 2P', monospace; /* Optional pixel font */
-}
-
-.xp-label {
-  color: #00ff00;
-  font-size: 14px;
-  margin-bottom: 8px;
-  display: block;
-}
-
-.mc-bar {
-  width: 100%;
-  height: 16px;
-  background-color: #1a1a1a;
-  border: 2px solid #00ff00;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0 0 10px #00ff00;
-}
-
-.mc-progress {
-  height: 100%;
-  background: linear-gradient(to right, #00ff00, #55ff55);
-  width: 0%;
-  animation: fillXP 2s ease-out forwards;
-}
-
-@keyframes fillXP {
-  to {
-    width: 70%;
-  }
 }
 
     <head>{
@@ -366,13 +329,6 @@
                 </div>
             </div>
             <div class= "achievements-section">
-                <div class="xp-mc-bar">
-                  <span class="xp-label">Level 17</span>
-                  <div class="mc-bar">
-                    <div class="mc-progress" style="width: 70%;"></div>
-                  </div>
-                </div>
-            </div>
                 <div class= "achievements-section">
                     <h2>Players Stats and Profile</h2>
                     <p>High School Bee Student from Indonesia. Passion for Computer Science, English, and Iron Bee</p>
@@ -401,21 +357,21 @@
             <div class="achievements-section">
                 <div class="content">
                     <h2><img src='chest.png'class= 'Achivement-image'>INVENTORY</h2>
-                        <p>&rarr;🐝💬IELTA ( International English Lecturer and Teacher Association ) Webinar Speaker (2025)</p><a href="https://ielta.org/webinar" class="inline-link">View IELTA</a>
-                        <p>&rarr;🐝 WOSCO ( WORLD SCIENCE OLYMPIAD ) ENGLISH LEVEL 3 (2025) --
-                        <p>&rarr;🐝🏅ISOQ ( INTERNATIONAL SCIENCE OLYMPIAD QUALIFICATION ) --<span class= "Finalist achievement-icon"</span>FINALIST of 21.148 participants</p>
-                        <p>&rarr;🐝🏅ISOQ ( INTERNATIONAL SCIENCE OLYMPIAD QUALIFICATION ) -- <span class= "Finalist achievement-icon"</span>TOP 0.47 of 21.148 participants</p><a href="https://eduexpo.com" class="inline-link">View Certificate</a>
-                        <p>&rarr;🐝🏅ISO ( INTERNATIONAL SCIENCE OLYMPIAD ) -- <span class= "Finalist achievement-icon"</span>Finalist of 24.687 Participants (2025)</p>
-                        <p>&rarr;🐝🏅EFO ( EDUCATION FEST AND OLYMPIAD ) 2024 -- <span class= "Finalist achievement-icon"</span>TOP 0.87 and FINALIST SCORE of 11.482 participants (2024)</p>
-                        <p>&rarr;🐝🥇TOEFL National Olympiad -- <span class = "GOLD achievement-icon" </span>Ranked 33rd GOLD(2025) </p><a href=https://drive.google.com/file/d/1lhpbLnFK3olTIVMM0ef6ldxaS2uPdgaQ/view?usp=sharing class="inline-link">View Certificate</a>
-                        <p>&rarr;🐝🥈KSI ( INDONESIA SCIENCE COMPETITION ) -- <span class="SILVER achievement-icon" </span>Ranked 11th SILVER (2025)</p><a href=https://drive.google.com/file/d/1lnDiVRMbqwn_QNAt6cSKh2t0djfjIFTt/view?usp=sharing class="inline-link">View Certificate</a>
-                        <p>&rarr;🐝🥈PRA-OSAK ENGLISH OLYMPIAD -- <span class = "SILVER achievement-icon" </span>Ranked 53rd SILVER (2025)</p><a href="https://posiindonesia.com" class="inline-link">View Certificate</a>
-                        <p>&rarr;🐝🥉PSN ( Pesta Sains Nasional ) English -- <span class= "BRONZE achievement-icon"</span>36th PLACE BRONZE (2025)</p>
-                        <p>&rarr;🐝🥇PSO ( POSI SCIENCE OLYMPIAD ) SIBOLGA -- <span class= "GOLD achievement-icon"</span>3rd PLACE GOLD (2025)</p>
-                        <p>&rarr;🐝SIDIMPUAN SCIENCE OLYMPIAD -- </p>
-                        <p>&rarr;🐝🏅JUNIOR HIGH ENGLISH OLYMPIAD 2021 -- <span class= "GOLD achievement-icon"</span>3rd PLACE TROPHY (2019)</p>
-                        <p>&rarr;🐝🥇TABAGSEL SCIENCE OLYMPIAD ENGLISH -- POSI INDONESIA -- <span class="GOLD achievement-icon"</span>2nd PLACE (2023)</p>
-                        <p>&rarr;🐝 </p>
+                        <p>&rarr;💬IELTA ( International English Lecturer and Teacher Association ) Webinar Speaker (2025)</p><a href="https://ielta.org/webinar" class="inline-link">View IELTA</a>
+                        <p>&rarr; WOSCO ( WORLD SCIENCE OLYMPIAD ) ENGLISH LEVEL 3 (2025) --
+                        <p>&rarr;🏅ISOQ ( INTERNATIONAL SCIENCE OLYMPIAD QUALIFICATION ) --<span class= "Finalist achievement-icon"</span>FINALIST of 21.148 participants</p>
+                        <p>&rarr;🏅ISOQ ( INTERNATIONAL SCIENCE OLYMPIAD QUALIFICATION ) -- <span class= "Finalist achievement-icon"</span>TOP 0.47 of 21.148 participants</p><a href="https://eduexpo.com" class="inline-link">View Certificate</a>
+                        <p>&rarr;🏅ISO ( INTERNATIONAL SCIENCE OLYMPIAD ) -- <span class= "Finalist achievement-icon"</span>Finalist of 24.687 Participants (2025)</p>
+                        <p>&rarr;🏅EFO ( EDUCATION FEST AND OLYMPIAD ) 2024 -- <span class= "Finalist achievement-icon"</span>TOP 0.87 and FINALIST SCORE of 11.482 participants (2024)</p>
+                        <p>&rarr;🥇TOEFL National Olympiad -- <span class = "GOLD achievement-icon" </span>Ranked 33rd GOLD(2025) </p><a href=https://drive.google.com/file/d/1lhpbLnFK3olTIVMM0ef6ldxaS2uPdgaQ/view?usp=sharing class="inline-link">View Certificate</a>
+                        <p>&rarr;🥈KSI ( INDONESIA SCIENCE COMPETITION ) -- <span class="SILVER achievement-icon" </span>Ranked 11th SILVER (2025)</p><a href=https://drive.google.com/file/d/1lnDiVRMbqwn_QNAt6cSKh2t0djfjIFTt/view?usp=sharing class="inline-link">View Certificate</a>
+                        <p>&rarr;🥈PRA-OSAK ENGLISH OLYMPIAD -- <span class = "SILVER achievement-icon" </span>Ranked 53rd SILVER (2025)</p><a href="https://posiindonesia.com" class="inline-link">View Certificate</a>
+                        <p>&rarr;🥉PSN ( Pesta Sains Nasional ) English -- <span class= "BRONZE achievement-icon"</span>36th PLACE BRONZE (2025)</p>
+                        <p>&rarr;🥇PSO ( POSI SCIENCE OLYMPIAD ) SIBOLGA -- <span class= "GOLD achievement-icon"</span>3rd PLACE GOLD (2025)</p>
+                        <p>&rarr;SIDIMPUAN SCIENCE OLYMPIAD -- </p>
+                        <p>&rarr;🏅JUNIOR HIGH ENGLISH OLYMPIAD 2021 -- <span class= "GOLD achievement-icon"</span>3rd PLACE TROPHY (2019)</p>
+                        <p>&rarr;🥇TABAGSEL SCIENCE OLYMPIAD ENGLISH -- POSI INDONESIA -- <span class="GOLD achievement-icon"</span>2nd PLACE (2023)</p>
+                        <p>&rarr; </p>
                         <div class=" achievements-section">
                                 <h2>BADGES</h2>
                                 <p>&rarr;🌟Developed multiple websites and games using skills gained from KodeKiddo and CodingBee from 6 years of coding</p>
@@ -454,7 +410,7 @@
              </div>
             <div class=" achievements-section">
                 <div class=" centerize">
-                    <h2>ARTIFACTS AND TOOLS</h2>
+                    <h2>ARTIFACTS AND TOOLS..|</h2>
                     <div class=" Division">
                         <p><a href="https://github.com/Starzz90/4-in-1-game" class="btn">4 in 1 game</a></p>
                         <p><a href="https://github.com/Starzz90/MobileBanking" class="btn">M-Banking</a></p>
@@ -477,7 +433,7 @@
     
             <div class=" achievements-section">
                 <div class= "centerize">
-                    <h2>START A CHAT</h2>
+                    <h2>START A GUILD..|</h2>
                     <div class=" Division">
                         <div class= "centerize">
                             <p>Instagram: <a href="https://www.instagram.com/chien_yo.v.ng/" class="btn">Instagram</a></p>
