@@ -190,6 +190,9 @@
             color: #FFFF00;
             font-size: 2.5;
         }
+        p{
+        font-family: "MyPixel-font", monospace;
+        }
         .p {
             color: white;
             margin: 10px 0;
@@ -208,7 +211,7 @@
         }
         .achivement-image {
             width: 70px;
-            height: 70px;
+            height: 50px;
             border-radius: 5%;
             margin: 10px;
         }
@@ -225,15 +228,6 @@
             border-image-slice: 1;
             margin-bottom: 25px;
           }
-
-          /*.content {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          color: white;
-          z-index: 2; /* Makes sure content appears on top */
-        }
         .achievement-icon{
             opacity: 0;
             letter-spacing: -2px;
@@ -294,6 +288,43 @@
     .pixel-text {
       font-family: 'MyPixelFont', monospace;
     }
+    .xp-mc-bar {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  text-align: center;
+  font-family: 'Press Start 2P', monospace; /* Optional pixel font */
+}
+
+.xp-label {
+  color: #00ff00;
+  font-size: 14px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.mc-bar {
+  width: 100%;
+  height: 16px;
+  background-color: #1a1a1a;
+  border: 2px solid #00ff00;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #00ff00;
+}
+
+.mc-progress {
+  height: 100%;
+  background: linear-gradient(to right, #00ff00, #55ff55);
+  width: 0%;
+  animation: fillXP 2s ease-out forwards;
+}
+
+@keyframes fillXP {
+  to {
+    width: 70%;
+  }
+}
     <head>{
         <style>
     }
@@ -322,16 +353,42 @@
                             <div class= "centerize">
                                 <img src="MyFace.jpg" alt="Profile Picture" class="profile-pic">
                                 <div class="profile-data">
-                                    <p>PLEASE TYPE IN YOUR NAME</p>
+                                    <p>>>GRAND WIZARD ONLINE<<</p>
                                     <div class= "p">
-                                        <h2>👑Enzo Davidson Tjen|</h2>
+                                        <h2>👑ENZO DAVIDSON TJEN</h2>
                                     </div>
-                                    <p><em> Class : Wizard | Lvl : 99 Medalist | Guild : Leader of The Englisha Guild </em></p>
+                                    <p>Class : Grand Wizard | Lvl : 99 Medalist | Guild : Leader of The Englisha Guild</p>
                                 </div>
                             </div>
                         </div>
                 </div>
             </div>
+            <div class="xp-section">
+                  <div class="xp-bar">
+                    <span>HTML</span>
+                    <div class="bar">
+                      <div class="progress" style="width: 90%;"></div>
+                    </div>
+                  </div>
+                  <div class="xp-bar">
+                    <span>CSS</span>
+                    <div class="bar">
+                      <div class="progress" style="width: 80%;"></div>
+                    </div>
+                  </div>
+                  <div class="xp-bar">
+                    <span>JavaScript</span>
+                    <div class="bar">
+                      <div class="progress" style="width: 65%;"></div>
+                    </div>
+                  </div>
+                  <div class="xp-bar">
+                    <span>Projects</span>
+                    <div class="bar">
+                      <div class="progress" style="width: 75%;"></div>
+                    </div>
+                  </div>
+                </div>
                 <div class= "achievements-section">
                     <h2>Players Stats and Profile</h2>
                     <p>High School Bee Student from Indonesia. Passion for Computer Science, English, and Iron Bee</p>
