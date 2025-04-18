@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EnzoDavidson- Portfolio</title>
+    <style>
+        body {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                        url('https://thumbs.dreamstime.com/b/desktop-pc-monitor-photo-programming-html-application-code-running-down-computer-screen-big-data-internet-things-trend-269118701.jpg') no-repeat center center fixed;
+            background-color: #0f2e7d; /* Dark blue */
+            background-size: cover;
+            color: white;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 15px;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            animation : fadeIn 1s ease-in-out;
+            -webkit-animation: fadeIn 1s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @-webkit-keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes bounce{
+            0% { transform: scale(0.8); opacity: 0; }
+            50% { transform: scale(1.1); opacity: 1; }
+            100% { transform: scale(1); }
+        }
+        .container {
+            background-color: #123591;/* Darker blue */
+            border-radius: 10px;
+            max-width: 800px;
+            margin: auto;
+            padding: 5px 20px;
+            text-align: left;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s, box-shadow 0.3s; 
+    
+        }
+        h1 {
+            margin-top: 50px;
+        }
+        b {
+            color:#ff6c00;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 20px;
+        }
+        .inline-link{
+            display: inline-link;
+            padding: 10px 20px;
+            margin: 10px;
+            color: gold;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition : background 0.3s, color 0.3s, font-style 0.3s;
+            font-style: normal;
+
+        }
+        .inline-link:hover {
+            color: white;
+            font-style: italic;
+            transform : scale(1.05);
+            transition: transform 0.3s;
+            text-decoration: underline;
+            }
+            @keyframes pulse {
+            from {
+            -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+            }
+            
+            75% {
+            -webkit-transform: scale3d(1.05, 1.05, 1.05);
+            transform: scale3d(1.05, 1.05, 1.05);
+            }
+            
+            to {
+            -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+            }
+            }
+            .animate__pulse {
+            -webkit-animation-name: pulse;
+            animation-name: pulse;
+            -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+            animation-duration: timeInSecs;
+            -webkit-animation-duration: timeInSecs;
+            animation-iteration-count: infinite;
+            -webkit-animation-iteration-count: infinite;
+            }
+        .btn {
+            background: #0d67c1; /* Bright blue */
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .btn:hover {
+            background: #4169E1;
+            color: white;
+            font-style: italic;
+            transform : scale(1.05);
+            transition: transform 0.3s;
+            scale: 1.5;
+             /* animation: @-webkit-keyframes pulse {
+            from {
+            -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+            }
+            
+            50% {  */
+            -webkit-transform: scale3d(1.05, 1.05, 1.05);
+            transform: scale3d(1.05, 1.05, 1.05);
+            }
+            
+            to {
+            -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+            }
+            @keyframes pulse {
+            from {
+            -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+            }
+            
+            50% {
+            -webkit-transform: scale3d(1.05, 1.05, 1.05);
+            transform: scale3d(1.05, 1.05, 1.05);
+            }
+            
+            to {
+            -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1);
+            }
+            }
+            .animate__pulse {
+            -webkit-animation-name: pulse;
+            animation-name: pulse;
+            -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+            animation-duration: timeInSecs;
+            -webkit-animation-duration: timeInSecs;
+            animation-iteration-count: infinite;
+            -webkit-animation-iteration-count: infinite;
+            }
+        .GOLD {
+            color: #FFD700; /* Gold color */
+            color: gold;
+        }
+        .SILVER {
+            color: #C0C0C0; /* Silver color */
+            color: silver;
+        }
+        .BRONZE {
+            color: #cd7f32; /* Bronze color */
+        }
+        .Finalist{
+            color:cornflowerblue
+        }
+        h1{
+            color: #ff6c00; /* Orange */
+            font-size: 2.5em;
+            line-height: 2.5;
+        }
+        h2, h3 {
+            margin-top: 40px;
+            color: #ff6c00; /* Orange */
+        
+        }
+        .participant{
+            color: rgb(233, 107, 35);
+            font-size: 2.5;
+        }
+        .p {
+            margin: 10px 0;
+            line-height: 1.5;
+            font-size: 15px;
+        }
+        .Achivement-image {
+            width: 50px;
+            height: 50px;
+            border-radius: 10%;
+            margin: 1px;
+        }
+        .achivement-image {
+            width: 70px;
+            height: 70px;
+            border-radius: 5%;
+            margin: 10px;
+        }
+        .achievements-section {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0px 4px 8px rgba(255, 215, 0, 0.5);
+            margin-top: 20px;
+            animation: fadeIn 1.5s ease-in-out;
+            border-image: linear-gradient(45deg, gold, silver, #FFD700);
+            border-image-slice: 1;
+        }
+
+        .achievement-icon{
+            opacity: 0;
+    letter-spacing: -2px;
+    animation: classyFade 1.5s ease-out forwards;
+}
+
+@keyframes classyFade {
+    0% { opacity: 0; letter-spacing: -2px; }
+    100% { opacity: 1; letter-spacing: 1px; }
+
+            
+        }
+        .Division {
+            display: flex;
+            flex: 1;
+            padding: 20px;
+
+        }
+        .shadow {
+            animation:  
+        }
+        .centerize{
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+    .Division {
+        flex-direction: column;
+        text-align: center;
+    }
+    .profile-container {
+    display: flex; 
+    align-items: center; /* Aligns items vertically */
+    gap: 20px; /* Adds space between image and text */
+}
+
+.profile-pic {
+    width: 20%; /* Adjust size as needed */
+    height: 50%;
+    border-radius: 30%; /* Makes the image circular */
+    object-fit:cover; /* Ensures proper image scaling */
+}
+
+.profile-data {
+    flex: 1; /* Allows text to take remaining space */
+}
+    .container {
+        width: 90%;
+        padding: 10px;
+    }
+    .profile-img {
+        width: 100px;
+        height: 100px;
+    }
+    <head>{
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+        <style>
+    }
+    body {
+      font-family: 'JetBrains Mono', monospace;
+    }
+    </style>
+    </head>
+<body>
+    <div class=" container">
+        <div class=" achievements-section">
+            <div class=" "centerize">
+                    <h1>MY PORTFOLIO</h1>
+            </div>
+        </div>
+    </div>
+    </script>
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+    </div>
+    </div>
+    <div class="container">
+        <div class="achievements-section">
+            <div class="profile-container">
+                <div class="column">
+                    <div class="space ">
+                        <img src="https://www.anime-planet.com/images/characters/ichiro-miyata-10435.jpg?t=1393905922" alt="Profile Picture" class="profile-pic">
+                        <div class="profile-data">
+                            <h2>👨‍🎓Enzo Davidson Tjen</h2>
+                            <p><em> Aspiring Programmer and Researcher | National Olympiad Medalist | English Mentor</em></p>
+                        </div>
+                    </div>
+
+    </div>
+</div>
+        </div>
+            <div class= "achievements-section">
+                <h2>👤About Me</h2>
+                <p>High School Student from Indonesia. Passion in Computer Science and English</p>
+                <p><b>School</b>: SMA NEGERI 1 PADANGSIDIMPUAN</p>
+                <p><b>Current Grade</b>: Year 11, 1st Semester</p>
+                <p><b>Currently learning C++ and Python</p></b>
+                <p><b>Skills</b>: C++, Python, HTML, C, Digital and Canvas Art, Photography</p>
+                <p><b>Athletic Abilities</b>: Track-Cycling, Swimming, Basketball, Volleyball</p>
+                <p>📜<b>Languages</b>: English, Indonesian, Mandarin, German</p>
+                <p>👨‍🏫<b>Occupation</b>: English School Mentor, English Debate Captain, English Club Captain, </p>
+                <p>👨‍🏫<b>Occupation</b>: English Olympiad Coach, Schools Best English Olympiad Medalist, Informatics Olympiad Participant</p>
+                <p><b>Ranked in School</b>: Best in English</p>
+                </div>
+        <div class="achievements-section">
+            <div class=" goals">
+                <h2><b>🏆Goals</b></h2>
+                <li>Win an International Informatics Olympiad (IOI, APIO, ICPC)</li>
+                <li>Win an International English Olympiad (IEO, IEO, IBO)</li>
+                <li>Publish another research paper on AI in a renowned Publisher (IEEE, Elsevier)</li>
+                <li>Contribute to ASEAN in technology and Innovation</li>
+                <li>Build a Major Tech Project recognized globally</li>
+            </div>
+        </div>    
+
+           
+        <div class="achievements-section">
+            <h2><img src='https://static.vecteezy.com/system/resources/previews/009/315/016/original/winner-trophy-in-flat-style-free-png.png'class= 'Achivement-image'>Achievements: Ranked by Merit ( 2023 - 2027 )</h2>
+                <p>&rarr;💬IELTA ( International English Lecturer and Teacher Association ) Webinar Speaker (2025)</p><a href="https://ielta.org/webinar" class="inline-link">View IELTA</a>
+                <p>&rarr; WOSCO ( WORLD SCIENCE OLYMPIAD ) ENGLISH LEVEL 3 (2025) --
+                <p>&rarr;🏅ISOQ ( INTERNATIONAL SCIENCE OLYMPIAD QUALIFICATION ) --<span class= "Finalist achievement-icon"</span>FINALIST of 21.148 participants</p>
+                <p>&rarr;🏅ISOQ ( INTERNATIONAL SCIENCE OLYMPIAD QUALIFICATION ) -- <span class= "Finalist achievement-icon"</span>TOP 0.47 of 21.148 participants</p><a href="https://eduexpo.com" class="inline-link">View Certificate</a>
+                <p>&rarr;🏅ISO ( INTERNATIONAL SCIENCE OLYMPIAD ) -- <span class= "Finalist achievement-icon"</span>Finalist of 24.687 Participants (2025)</p>
+                <p>&rarr;🏅EFO ( EDUCATION FEST AND OLYMPIAD ) 2024 -- <span class= "Finalist achievement-icon"</span>TOP 0.87 and FINALIST SCORE of 11.482 participants (2024)</p>
+                <p>&rarr;🥇TOEFL National Olympiad -- <span class = "GOLD achievement-icon" </span>Ranked 33rd GOLD(2025) </p><a href=https://drive.google.com/file/d/1lhpbLnFK3olTIVMM0ef6ldxaS2uPdgaQ/view?usp=sharing class="inline-link">View Certificate</a>
+                <p>&rarr;🥈KSI ( INDONESIA SCIENCE COMPETITION ) -- <span class="SILVER achievement-icon" </span>Ranked 11th SILVER (2025)</p><a href=https://drive.google.com/file/d/1lnDiVRMbqwn_QNAt6cSKh2t0djfjIFTt/view?usp=sharing class="inline-link">View Certificate</a>
+                <p>&rarr;🥈PRA-OSAK ENGLISH OLYMPIAD -- <span class = "SILVER achievement-icon" </span>Ranked 53rd SILVER (2025)</p><a href="https://posiindonesia.com" class="inline-link">View Certificate</a>
+                <p>&rarr;InSC ( Indonesia Science Competition ) English -- </p>
+                <p>&rarr;InSC ( Indonesia Science Competition ) Informatics -- </p>
+                <p>&rarr;PSN ( Pesta Sains Nasional ) English -- </p>
+                <p>&rarr;PSN ( Pesta Sains Nasional ) Informatics -- </p>
+                <p>&rarr;🥇PSO ( POSI SCIENCE OLYMPIAD ) SIBOLGA -- <span class= "GOLD achievement-icon"</span>3rd PLACE GOLD (2025)</p>
+                <p>&rarr;SIDIMPUAN SCIENCE OLYMPIAD -- </p>
+                <p>&rarr;🏅JUNIOR HIGH ENGLISH OLYMPIAD 2021 -- <span class= "GOLD achievement-icon"</span>3rd PLACE TROPHY (2019)</p>
+                <p>&rarr;👤METHODIST EDUCATION EXPO 2024 MATH OLYMPIAD -- <span class= "participant achievement-icon"</span>Participant (2024)</span></p>
+                <p>&rarr;🥇TABAGSEL SCIENCE OLYMPIAD ENGLISH -- POSI INDONESIA -- <span class="GOLD achievement-icon"</span>2nd PLACE (2023)</p>
+                <p>&rarr; </p>
+                <div class=" achievements-section"
+                    <h2>🚀Self-Achievements</h2>
+                    <p>&rarr;🌟Developed multiple websites and games using skills gained from KodeKiddo and CodingBee from 6 years of coding</p>
+                    <p>&rarr;🌟Created a remote controlled and path-finder robot at Robota Summer Camp</p>
+                    <p>&rarr;🌟Featured winner in every olympiad win on schools instagram</p>
+                    <p>&rarr;🌟Consecutive English Olympiad wins in National and Provincial stage for 3 years</p>
+                    <p>&rarr;🌟Mastered 6 different sports</p>
+                    <p>&rarr;🌟Mastered Digital and Canvas Art since age 4</p>
+                    <p>&rarr;🌟Got a C1 advanced rating on the British Council English Test</p>
+                    <p>&rarr;🌟Helped and Mentored Students on Linguistics and Olympiad Problems resulting in a 15% raise on English Olympiad wins</p>
+                    <p>&rarr;🌟Experience in handling financial transactions for a store with 7 years of experience</p>
+                    <p>&rarr;🌟Learned Photography in summer catching wildlife and sceneries</p>
+                </div>
+            </div>
+        <div class= "achivements-section">
+            <div class= "container">
+                <div class= "centerize">
+                    <h2>Why This University ?</h2>
+                    <p> I am drawn to this university because of its strong emphasis on research, innovation, and impact-driven education, particularly in the field of computer science. Thhe opportunity to work alongside esteemed faculty members and lik minded peers excites me and aligns with my long-term goal of developing technology that addresses real-world challenges. I believe this university will provide me with the resources, mentorship, and hands-on learning enviroment necessary to achieve my academic and professional aspirations.
+                    <p> Additionally, the university's commitment to fostering a diverse and inclusive academic community strongly resonates with my values. Having actively participated in Debate Captain, mentoring english olympiads, and created multiple websites for my community, I am eager to contribute to an environment that promotes intellectual exchange, collaboration, and global perspectives.</p>
+                    <p> Furthermore, the university's network of alumni and industry partnerships presents invaluable opportunities for internships, research, and experience. Particullarly interested in Software, Hardware, and AI, I believe this university's aproach to bridging academia with the real-world aplications, helping me create long-lasting connections, giving me new valuable opportunities that will help me develop the expertise needed to make a meaningfull impact to a wider community</p>
+                    <p> Overall, I am excited about the prospects of joining this university and contributing to its legacy of excellence in innovation, research, and impact in a whole-new enviroment.</p>
+                    <p>Thank you for considering my application. I look forward to the opportunity to be a part of this esteemed institution.</p>
+                </div>
+            </div>
+        </div>
+        <div class=" achievements-section">
+            <div class=" centerize">
+                <h2>📂Projects</h2>
+                <div class=" Division">
+                    <p><a href="https://github.com/Starzz90/4-in-1-game" class="btn">4 in 1 game</a></p>
+                    <p><a href="https://github.com/Starzz90/MobileBanking" class="btn">M-Banking</a></p>
+                    <p><a href="#" class="btn">Jet Fighter Game</a></p>
+                </div>
+            </div>
+        </div>
+        
+        <div class=" achievements-section">
+            <div class= "centerize">
+            <h2>Contact</h2>
+                <div class=" Division">
+                        <p> Email <a href="mailto:enzodtjen@gmail.com" class="btn">Email Me</a></p>
+                        <p> Github <a href="https://github.com/Starzz90" class="btn">GitHub</a></p>
+                        <p> LinkedIn <a href="https://www.linkedin.com/in/enzo-davidson-tjen-25b168354/" class="btn">LinkedIn</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class=" achievements-section">
+            <div class= "centerize">
+                <h2>Social Media</h2>
+                <div class=" Division">
+                    <p>Instagram: <a href="https://www.instagram.com/chien_yo.v.ng/" class="btn">Instagram</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="achievements-section">
+            <div class= "centerize">
+            <h2>📚 Publications</h2>
+            <h2> Research Papers</h2>
+            <li>How AI has evolved in the Design and Creative Industry</li>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
+</html>
