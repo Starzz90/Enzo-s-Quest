@@ -5,6 +5,10 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" 
+    rel="stylesheet"
+    />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EnzoDavidson- Portfolio</title>
@@ -13,11 +17,11 @@
             background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),url('THEBEES (1).png');
             background-repeat: repeat;
             background-size: 906px 620px;
-            font-family: 'JetBrains Mono', monospace;
+            font-family: 'MyPixel-font', monospace;
             font-size: 15px;
             margin: 0;
             padding: 0;
-            color: #000;
+            color: #fff;
             text-align: center;
             animation : fadeIn 1s ease-in-out;
             -webkit-animation: fadeIn 1s ease-in-out;
@@ -172,6 +176,7 @@
         h1, h2, h3 {
             margin-top: 5px;
             color:  #994F00 ;
+            font-family: 'Press Start 2P';
         }
         h1{
             font-size: 40px;
@@ -259,10 +264,6 @@
 .profile-data {
     flex: 1; /* Allows text to take remaining space */
 }
-    .container {
-        width: 90%;
-        padding: 20px;
-    }
     .center{
         text-align: center;
         align-items: center;
@@ -270,24 +271,14 @@
         width: 100px;
         height: 100px;
     }
-    .glass-card {
-      background: rgba(255, 255, 255, 0.1); /* Transparent white */
-      backdrop-filter: blur(15px); /* Blurry background */
-      -webkit-backdrop-filter: blur(15px); /* Safari support */
-      border: 1px solid rgba(255, 255, 255, 0.3);
-      border-radius: 20px;
-      padding: 30px;
-      color: white;
-      max-width: 300px;
-      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
-      margin: 20px auto;
-      text-align: center;
-      transition: transform 0.3s ease;
+    @font-face {
+      font-family: 'MyPixelFont';
+      src: url('fonts/PixelFont.ttf') format('truetype');
     }
-
-.glass-card:hover {
-  transform: scale(1.05);
-}
+    
+    .pixel-text {
+      font-family: 'MyPixelFont', monospace;
+    }
     <head>{
         <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
         <style>
