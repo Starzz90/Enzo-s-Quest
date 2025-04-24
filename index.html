@@ -379,6 +379,30 @@ line-height: 1.8;
   from {opacity: 0;}
   to {opacity: 1;}
 }
+.collapsible {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease;
+  background: #f1f1f1;
+  margin-top: 10px;
+  padding: 0 20px;
+  border-radius: 10px;
+}
+
+.collapsible.open {
+  max-height: 500px; /* Adjust based on expected content height */
+  padding: 20px;
+}
+
+.toggle-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
     <head>{
         <style>
     }
@@ -504,7 +528,7 @@ line-height: 1.8;
                             <p><b>&rarr;🏅EFO ( EDUCATION FEST AND OLYMPIAD ) 2024 -- <span class= "Finalist achievement-icon"</span>TOP 0.87 and FINALIST SCORE of 11.482 participants (2024)</b></p>
                             <button onclick="toggleSection()" class="toggle-btn">See More</button>
 
-                            <div id="hiddenSection" class="hidden-section">
+                            <div id="hiddenSection" class="collapsible">
                               <p>This is the extra section that drops down when the button is clicked!</p>
                               <p>You can add images, links, or any content here.</p>
                             </div>
