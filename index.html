@@ -350,6 +350,35 @@ line-height: 1.8;
     .pixel-text {
       font-family: 'Press Start 2P', monospace;
     }
+  .hidden-section {
+  display: none;
+  padding: 1rem;
+  margin-top: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.toggle-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-btn:hover {
+  background-color: #0056b3;
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
     <head>{
         <style>
     }
@@ -473,6 +502,12 @@ line-height: 1.8;
                             <p><b>&rarr;🏅ISOQ ( INTERNATIONAL SCIENCE OLYMPIAD QUALIFICATION ) -- <span class= "Finalist achievement-icon"</span>TOP 0.47 of 21.148 participants</b></p><a href="https://eduexpo.com" class="inline-link">View Certificate</a>
                             <p><b>&rarr;🏅ISO ( INTERNATIONAL SCIENCE OLYMPIAD ) -- <span class= "Finalist achievement-icon"</span>Finalist of 24.687 Participants (2025)</b></p>
                             <p><b>&rarr;🏅EFO ( EDUCATION FEST AND OLYMPIAD ) 2024 -- <span class= "Finalist achievement-icon"</span>TOP 0.87 and FINALIST SCORE of 11.482 participants (2024)</b></p>
+                            <button onclick="toggleSection()" class="toggle-btn">See More</button>
+
+                            <div id="hiddenSection" class="hidden-section">
+                              <p>This is the extra section that drops down when the button is clicked!</p>
+                              <p>You can add images, links, or any content here.</p>
+                            </div>
                             <div class="centerize">
                                 <p><a href= "https://starzz90.github.io/More-Achivements-section/" class="inline-link">↓ Expand Inventory ↓</a></p>
                             </div>
