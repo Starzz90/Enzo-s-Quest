@@ -119,32 +119,6 @@
             animation-iteration-count: infinite;
             -webkit-animation-iteration-count: infinite;
             }
-        .btn {
-            background:#8A2BE2; /* Bright Purple */
-            color: white;
-            padding: 3px 3px;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-            margin: 7px;
-        }
-        .btn:hover {
-            background:#cccccc;
-            color: black;
-            font-style: bold;
-            transform : scale(1.05);
-            transition: transform 0.3s;
-            scale: 1.5;
-             /* animation: @-webkit-keyframes pulse {
-            from {
-            -webkit-transform: scale3d(1, 1, 1);
-            transform: scale3d(1, 1, 1);
-            }
-            
-            50% {  */
-            -webkit-transform: scale3d(1.05, 1.05, 1.05);
-            transform: scale3d(1.05, 1.05, 1.05);
-            }
         .btnid {
             background:#8A2BE2; /* Bright Purple */
             color: white;
@@ -337,7 +311,7 @@ line-height: 1.8;
             color: #fff;
             display: grid;
             gap: 5px;
-            grid-auto-flow: row;
+            grid-auto-flow: column;
         }
          .Small-block{
             background-color: #1E0A30;
@@ -357,7 +331,10 @@ line-height: 1.8;
             color: #fff;
             display: grid;
             gap: 5px;
-            grid-auto-flow: row;
+            grid-auto-flow: column;
+            overflow-x: hidden;
+            overflow-x: auto;
+            white-space: nowrap;
          }
         .Division{
             display: grid;
