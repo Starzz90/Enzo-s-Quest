@@ -1,3 +1,3 @@
 function Page() {
-    window.location.href = "https://Starzz90.github.io/More-Achivements-section/";
+    window.location.href = "https://starzz90.github.io/More-Achivements-section/";
 }
