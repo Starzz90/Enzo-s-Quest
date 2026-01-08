@@ -1,5 +1,5 @@
         body {
-            background-image:'purple.png';
+            background-image: url('purple.png');
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -398,5 +398,6 @@
         font-family: 'Press Start 2P', monospace;
         font-family: 'public pixel font',monospace;
         }
+
 
 
