@@ -110,7 +110,7 @@
             color: white;
             max-width: 100%;
             height: auto;
-                min-height: 25px;
+                min-height: 15px;
             padding: 10px 10px;
             text-decoration: none;
             border-radius: 5px;
@@ -128,9 +128,9 @@
             background:#cccccc;
             color: black;
             font-style: bold;
-            transform : scale(1.05);
+            transform : scale(0.75);
             transition: transform 0.3s;
-            scale: 1.2;
+            scale: 1.05;
              /* animation: @-webkit-keyframes pulse {
             from {
             -webkit-transform: scale3d(1, 1, 1);
@@ -422,6 +422,7 @@
         font-family: 'Press Start 2P', monospace;
         font-family: 'public pixel font',monospace;
         }
+
 
 
 
