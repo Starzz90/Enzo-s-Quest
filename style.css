@@ -232,6 +232,12 @@
             color: #EF7C00;
             transform: scale(1.2)
         }
+        .Big{
+                color: #FFFFFF;
+                font-size: 15px;
+                position: center;
+                
+        }
         .d{
             color: rgba(0, 0, 0, 0.5);
             font-size: 10px;
@@ -410,6 +416,7 @@
         font-family: 'Press Start 2P', monospace;
         font-family: 'public pixel font',monospace;
         }
+
 
 
 
