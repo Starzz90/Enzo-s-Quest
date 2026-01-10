@@ -237,7 +237,7 @@
         }
         .Big{
                 color: #FFFFFF;
-                font-size: clamp(14px, 2.5vw, 18px);
+                font-size: clamp(12px, 2.5vw, 15px);
                 word-break: break-word;
                 position: center;
                 white-space: normal;
@@ -422,6 +422,7 @@
         font-family: 'Press Start 2P', monospace;
         font-family: 'public pixel font',monospace;
         }
+
 
 
 
