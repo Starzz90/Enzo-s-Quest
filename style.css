@@ -110,7 +110,7 @@
             color: white;
             max-width: 100%;
             height: auto;
-                min-height: 15px;
+                min-height: 0px;
             padding: 10px 10px;
             text-decoration: none;
             border-radius: 5px;
@@ -422,6 +422,7 @@
         font-family: 'Press Start 2P', monospace;
         font-family: 'public pixel font',monospace;
         }
+
 
 
 
