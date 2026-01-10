@@ -109,6 +109,8 @@
             background:#8A2BE2; /* Bright Purple */
             color: white;
             max-width: 100%;
+            height: auto;
+                min-height: 30px;
             padding: 10px 10px;
             text-decoration: none;
             border-radius: 5px;
@@ -119,7 +121,8 @@
             gap: 7px;
             overflow-x: hidden;
             overflow-x: auto;
-            white-space: nowrap;
+            white-space: normal;
+            
         }
         .btnid:hover {
             background:#cccccc;
@@ -234,8 +237,11 @@
         }
         .Big{
                 color: #FFFFFF;
-                font-size: 15px;
+                font-size: clamp(14px, 2.5vw, 18px);
+                word-break: break-word;
                 position: center;
+                white-space: normal;
+                overflow-wrap: anywhere;
                 
         }
         .d{
@@ -416,6 +422,7 @@
         font-family: 'Press Start 2P', monospace;
         font-family: 'public pixel font',monospace;
         }
+
 
 
 
