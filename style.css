@@ -365,10 +365,22 @@
             grid-auto-flow: column;
         }
         .button{
-                background-color: #fce703;
-                width: 70px;
-                height: 40px;
-                border-radius: 5px;
+                background:#8A2BE2; /* Bright Purple */
+            color: white;
+            max-width: 100%;
+            height: auto;
+                min-height: 0px;
+            padding: 10px 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 5px;
+            display: grid;
+            grid-auto-flow: row;
+            gap: 7px;
+            overflow-x: hidden;
+            overflow-x: auto;
+            white-space: normal;
         }
     
 
@@ -422,6 +434,7 @@
         font-family: 'Press Start 2P', monospace;
         font-family: 'public pixel font',monospace;
         }
+
 
 
 
