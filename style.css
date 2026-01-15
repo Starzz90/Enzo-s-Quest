@@ -364,7 +364,7 @@
             gap: 6px;
             grid-auto-flow: column;
         }
-        button:active{
+        .JSbutton{
                 background-color: #fce703;
                 width: 70px;
                 height: 40px;
@@ -422,6 +422,7 @@
         font-family: 'Press Start 2P', monospace;
         font-family: 'public pixel font',monospace;
         }
+
 
 
 
