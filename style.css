@@ -318,7 +318,7 @@
 /*             overflow-x: auto; */
         }
         .Spell-block:hover{
-            background-color:#7b20df;
+            background-color:#fff200;
             background-size: contain;
             margin-right: 5px;
             text-align: center;
@@ -457,6 +457,7 @@
         font-family: 'Press Start 2P', monospace;
         font-family: 'public pixel font',monospace;
         }
+
 
 
 
