@@ -381,6 +381,8 @@
             overflow-x: hidden;
             overflow-x: auto;
             white-space: normal;
+            position: center;
+            item-align: center;
         }
     
 
@@ -434,6 +436,7 @@
         font-family: 'Press Start 2P', monospace;
         font-family: 'public pixel font',monospace;
         }
+
 
 
 
