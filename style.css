@@ -71,10 +71,10 @@
 
         }
         .inline-link:hover {
-            color: White;
+            color: #ce2695;
             font-family: "Press Start 2P";
             font-style: italic;
-            transform : scale(1.2);
+            transform : scale(1.7);
             transition: transform 0.3s;
             text-decoration: underline;
             }
@@ -456,6 +456,7 @@
         font-family: 'Press Start 2P', monospace;
         font-family: 'public pixel font',monospace;
         }
+
 
 
 
