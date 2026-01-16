@@ -359,6 +359,26 @@
             overflow-x: hidden;
             white-space: nowrap;
         }
+        .Small-block:hover{
+            background-color:#eec602;
+            background-size: contain;
+            margin-right: 5px;
+            text-align: center;
+            border: 4px solid #323232;
+            image-rendering: pixelated;
+            padding: 5px;
+            border-radius: 10px;
+            margin-top: 10px;
+            animation: fadeIn 1.5s ease-in-out;
+            line-height: 1.5;
+            border-image-slice: 1;
+            margin-bottom: 10px;
+            color: #000000;
+            display: grid;
+            gap: 5px;
+            grid-auto-flow: column;
+            overflow-x: hidden;   
+        }
         .Division{
             display: grid;
             gap: 6px;
@@ -436,6 +456,7 @@
         font-family: 'Press Start 2P', monospace;
         font-family: 'public pixel font',monospace;
         }
+
 
 
 
