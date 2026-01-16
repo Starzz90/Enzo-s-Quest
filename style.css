@@ -65,7 +65,7 @@
             text-decoration: none;
             border-radius: 5px;
             font-weight: bold;
-            transition : background 0.3s, color 0.3s, font-style 0.3s;
+            transition: background 0.3s, color 0.3s, font-style 0.3s;
             font-style: normal;
             font-family: "Press Start 2P";
 
@@ -74,7 +74,7 @@
             color: #ce2695;
             font-family: "Press Start 2P";
             font-style: italic;
-            transform : scale(1.7);
+            transform: scale(1.7);
             transition: transform 0.3s;
             text-decoration: underline;
             }
@@ -456,6 +456,7 @@
         font-family: 'Press Start 2P', monospace;
         font-family: 'public pixel font',monospace;
         }
+
 
 
 
