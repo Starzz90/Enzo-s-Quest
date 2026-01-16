@@ -75,6 +75,7 @@
             font-family: "Press Start 2P";
             font-style: italic;
             transform: scale(1.7);
+            scale: 1.5;
             transition: transform 0.3s;
             text-decoration: underline;
             }
@@ -127,7 +128,7 @@
             background:#cccccc;
             color: black;
             font-style: bold;
-            transform : scale(0.75);
+            transform: scale(0.75);
             transition: transform 0.3s;
             scale: 1.05;
              /* animation: @-webkit-keyframes pulse {
@@ -456,6 +457,7 @@
         font-family: 'Press Start 2P', monospace;
         font-family: 'public pixel font',monospace;
         }
+
 
 
 
