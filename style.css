@@ -124,6 +124,12 @@
             white-space: normal;
             
         }
+        .light{
+                color: white;
+                opacity: 0.5;
+                spacing: 1.2;
+                font-size: 10px;
+        }
         .btnid:hover {
             background:#cccccc;
             color: black;
