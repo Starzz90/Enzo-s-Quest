@@ -46,6 +46,10 @@
             color: #FE019A;
             line-height: 1.5;
         }
+        a{
+                color: #e2c01d;
+                
+        }
         strong{
             margin-top: 5px;
             color: #B026FF;
@@ -462,6 +466,7 @@
         font-family: 'Press Start 2P', monospace;
         font-family: 'public pixel font',monospace;
         }
+
 
 
 
