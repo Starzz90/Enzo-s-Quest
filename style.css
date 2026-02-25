@@ -460,14 +460,28 @@
         .pixel-text {
         font-family: 'Press Start 2P', monospace;
         }
-        <head>{
-            <style>
-        }
         body {
         font-family: 'Press Start 2P', monospace;
         font-family: 'public pixel font',monospace;
         }
-
+        .collapsible{
+                width: 40px;
+                height: 40px;
+                color: white;
+                background-color: black;
+                font-size: 40px;
+                border: none;
+                border-radius: 2px;
+                cursor: pointer;
+                
+        }
+        .collapsible, .container{
+                margin-left: 30%;
+                
+        }
+        .activeColl, collapsible:hover{
+                color: white;
+        }
 
 
 
