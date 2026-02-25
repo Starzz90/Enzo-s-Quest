@@ -473,7 +473,6 @@
                 border: none;
                 border-radius: 2px;
                 cursor: pointer;
-                
         }
         .collapsible, .container{
                 margin-left: 30%;
@@ -482,6 +481,7 @@
         .activeColl, collapsible:hover{
                 color: white;
         }
+
 
 
 
