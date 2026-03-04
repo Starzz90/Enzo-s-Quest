@@ -410,7 +410,7 @@
             overflow-x: auto;
             white-space: normal;
             position: center;
-            item-align: center;
+            align-items: center;
             border: 4px solid #8d22bc;
         }
     
@@ -477,24 +477,14 @@
         .dropbtn{
             background:#8A2BE2; /* Bright Purple */
             color: white;
-            max-width: 100%;
-            height: auto;
-            min-height: 0px;
-            padding: 10px 10px;
-            text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
-            margin: 5px;
-            display: grid;
-            grid-auto-flow: row;
-            gap: 7px;
-            overflow-x: hidden;
-            overflow-x: auto;
-            white-space: normal;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+             border: 4px solid #8d22bc;
         }
         .dropdown {
             position: relative;
-            display: inline-block;
         }
         .dropdown-content {
             display: none;
@@ -502,7 +492,6 @@
             background-color: #f9f9f9;
             min-width: 160px;
             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-            z-index: 1;
         }
         .dropdown-content a {
             color: black;
