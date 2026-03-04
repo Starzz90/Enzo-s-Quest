@@ -474,6 +474,49 @@
                 Border-right-style: solid;
                 fill: white;
         }
+        .dropbtn{
+            background:#8A2BE2; /* Bright Purple */
+            color: white;
+            max-width: 100%;
+            height: auto;
+            min-height: 0px;
+            padding: 10px 10px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin: 5px;
+            display: grid;
+            grid-auto-flow: row;
+            gap: 7px;
+            overflow-x: hidden;
+            overflow-x: auto;
+            white-space: normal;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {background-color: #f1f1f1}
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .dropdown:hover .dropbtn {
+            background-color: #3e8e41;
+        }
 
 
 
