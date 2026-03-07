@@ -474,7 +474,7 @@
                 Border-right-style: solid;
                 fill: white;
         }
-       .project-box {
+        .project-box {
             background-color:rgba(77, 4, 119, 0.7);
             overflow-x: hidden;
             z-index: 4;
