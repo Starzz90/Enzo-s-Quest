@@ -474,10 +474,10 @@
                 Border-right-style: solid;
                 fill: white;
         }
-        .project-box {
+        .project{
             background-color:rgba(77, 4, 119, 0.7);
             overflow-x: hidden;
-            z-index: 4;
+            z-index: 2;
             border: 4px solid #ffde65;
             image-rendering: pixelated;
             padding: 20px;
