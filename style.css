@@ -474,4 +474,18 @@
                 Border-right-style: solid;
                 fill: white;
         }
-       
+       .project-box {
+            background-color:rgba(77, 4, 119, 0.7);
+            overflow-x: hidden;
+            z-index: 3;
+            border: 4px solid #aaaaaa;
+            image-rendering: pixelated;
+            padding: 20px;
+            border-radius: 15px;
+            margin-top: 20px;
+            animation: fadeIn 1.5s ease-in-out;
+            line-height: 1.5;
+            border-image-slice: 1;
+            margin-bottom: 25px;
+            color: #fff;
+       }
