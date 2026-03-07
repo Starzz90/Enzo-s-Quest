@@ -477,8 +477,8 @@
        .project-box {
             background-color:rgba(77, 4, 119, 0.7);
             overflow-x: hidden;
-            z-index: 3;
-            border: 4px solid #aaaaaa;
+            z-index: 4;
+            border: 4px solid #ffde65;
             image-rendering: pixelated;
             padding: 20px;
             border-radius: 15px;
@@ -488,4 +488,4 @@
             border-image-slice: 1;
             margin-bottom: 25px;
             color: #fff;
-       }
+        }
