@@ -423,11 +423,13 @@
         }
         .centerize{
             text-align: center;
-            align-items: center;
+        }
+        .Centery{
             display: flex;
             justify-content: center;
-            position: center;
-
+            align-items: center;
+            text-align: center;
+            
         }
         @media (max-width: 768px) {
         }
