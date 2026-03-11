@@ -444,6 +444,10 @@
         height: 400px;
         border-radius: 10%; /* Makes the image circular */
         object-fit:cover; /* Ensures proper image scaling */
+        margin-right: 15px;
+        margin-left: 10px;
+        margin-top:8px;
+        margin-bottom: 8px;
     }
 
     .profile-data {
