@@ -423,6 +423,11 @@
         }
         .centerize{
             text-align: center;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            position: center;
+
         }
         @media (max-width: 768px) {
         }
