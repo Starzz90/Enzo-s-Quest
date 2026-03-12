@@ -395,7 +395,7 @@
         .button{
             background:#8A2BE2; /* Bright Purple */
             color: white;
-            max-width: 100%;
+            max-width: 250px;
             height: auto;
             min-height: 0px;
             padding: 10px 10px;
@@ -444,10 +444,10 @@
         height: 400px;
         border-radius: 10%; /* Makes the image circular */
         object-fit:cover; /* Ensures proper image scaling */
-        margin-right: 20px;
-        margin-left: 30px;
-        margin-top:8px;
-        margin-bottom: 8px;
+        margin-right: 30px;
+        margin-left: 15px;
+        margin-top:5px;
+        margin-bottom: 5px;
     }
 
     .profile-data {
