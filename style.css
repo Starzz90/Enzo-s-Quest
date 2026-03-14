@@ -46,10 +46,6 @@
             color: #FE019A;
             line-height: 1.5;
         }
-        a{
-                color: #e2c01d;
-                
-        }
         strong{
             margin-top: 5px;
             color: #B026FF;
@@ -86,7 +82,7 @@
             font-style: italic;
             transform: scale(1.02);
             scale: 1.05;
-            transition: transform 0.3s;
+            transition: transform 0.5s;
             animation: glow-text 1s ease-in-out infinite;
             }
             @keyframes pulse {
