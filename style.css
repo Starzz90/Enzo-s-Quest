@@ -63,7 +63,7 @@
         }
         .inline-link{
             font-size: 12px;
-            display: inline-link;
+            display: inline-block;
             padding: 7px 5px;
             margin: 5px;
             text-decoration: none;
@@ -74,14 +74,20 @@
             font-family: "Press Start 2P";
 
         }
+        @keyframes glow-text {
+            0% { text-shadow: 0 0 0px rgba(255, 255, 255, 0.0), 0 0 0px rgba(138, 43, 226, 0.0); }
+            50% { text-shadow: 0 0 6px rgba(255, 255, 255, 0.9), 0 0 14px rgba(138, 43, 226, 0.6); }
+            100% { text-shadow: 0 0 0px rgba(255, 255, 255, 0.0), 0 0 0px rgba(138, 43, 226, 0.0); }
+        }
+
         .inline-link:hover {
-            color: #ce2695;
+            color: #ffffff;
             font-family: "Press Start 2P";
             font-style: italic;
-            transform: scale(1.7);
-            scale: 1.5;
+            transform: scale(1.02);
+            scale: 1.05;
             transition: transform 0.3s;
-            text-decoration: underline;
+            animation: glow-text 1s ease-in-out infinite;
             }
             @keyframes pulse {
             from {
@@ -109,6 +115,15 @@
             animation-iteration-count: infinite;
             -webkit-animation-iteration-count: infinite;
             }
+        .international{
+            color: #ff147a;
+            font-size: 12px;
+            font-style: bold;
+        }
+        .international:hover{
+            color: #ffffff;
+            font-size: 12px;
+        }
         .btnid {
             background:#8A2BE2; /* Bright Purple */
             color: white;
@@ -239,10 +254,6 @@
             margin: 10px 0;
             line-height: 1.5;
             font-size: 15px;
-        }
-        .p:hover{
-            color: #EF7C00;
-            transform: scale(1.2)
         }
         .Big{
                 color: #FFFFFF;
