@@ -206,12 +206,15 @@
         .Finalist{
             color: #FF6961;
         }
-        h1, h2, h3 {
+        h2, h3 {
             color: #FFD700;
             font-family: 'Press Start 2P';
+            margin-top: 5px;
         }
         h1{
             font-size: 40px;
+            color: #FFD700;
+            font-family: 'Press Start 2P';
         }
         h4{
             font-size: 18px;
