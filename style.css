@@ -260,6 +260,9 @@
             position: center;
             white-space: normal;
             overflow-wrap: anywhere;
+        .Big:hover{
+            color:#000000
+        }
         }
         .d{
             color: rgba(0, 0, 0, 0.5);
