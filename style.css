@@ -82,7 +82,7 @@
             font-style: italic;
             transform: scale(1.02);
             scale: 1.05;
-            transition: transform 0.5s;
+            transition: transform 0.3s;
             animation: glow-text 1s ease-in-out infinite;
             }
             @keyframes pulse {
