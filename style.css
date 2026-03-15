@@ -207,7 +207,6 @@
             color: #FF6961;
         }
         h1, h2, h3 {
-            margin-top: 5px;
             color: #FFD700;
             font-family: 'Press Start 2P';
         }
@@ -252,12 +251,12 @@
             font-size: 15px;
         }
         .Big{
-                color: #FFFFFF;
-                font-size: clamp(12px, 2.5vw, 15px);
-                word-break: break-word;
-                position: center;
-                white-space: normal;
-                overflow-wrap: anywhere;
+            color: #FFFFFF;
+            font-size: clamp(12px, 2.5vw, 15px);
+            word-break: break-word;
+            position: center;
+            white-space: normal;
+            overflow-wrap: anywhere;
         }
         .d{
             color: rgba(0, 0, 0, 0.5);
