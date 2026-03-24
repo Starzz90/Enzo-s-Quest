@@ -536,4 +536,45 @@
         .white-fill{
             color:white;
         }
+
+
+
+        .p {
+            color: white;
+            margin: 2px 0;
+            font-size: 15px;
+        }
+        .p:hover{
+            color: #EF7C00;
+            transform: scale(1.2)
+        }
+        .city{
+            color: #52f436;
+        }
+        .city:hover {
+            color: White;
+            font-family: "Press Start 2P";
+            transform : scale(1.2);
+            transition: transform 0.3s;
+        }
+        .provincial{
+            color: #3b3be2;
+        }
+        .provincial:hover {
+            color: White;
+            font-family: "Press Start 2P";
+            transform : scale(1.2);
+            transition: transform 0.3s;
+        }
+        .global{
+            margin-top: 5px;
+            color: #B026FF;
+            line-height: 1.5;
+        }
+        .global:hover {
+            color: White;
+            font-family: "Press Start 2P";
+            transform : scale(1.2);
+            transition: transform 0.3s;
+            }
         
