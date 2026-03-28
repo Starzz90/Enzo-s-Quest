@@ -381,6 +381,7 @@
             flex-wrap: wrap;
             flex-grow: 1;
             place-content: center;
+            margin-bottom: 5px;
         }
         .Small-block:hover{
             background-color:#8d22bc;
@@ -414,14 +415,15 @@
         .button{
             background:#8A2BE2; /* Bright Purple */
             color: white;
-            max-width: 250px;
+            max-width: 500px;
             height: auto;
             min-height: 0px;
             padding: 10px 10px;
             text-decoration: none;
             border-radius: 5px;
             font-weight: bold;
-            margin: 5px;
+            margin-top: 5px;
+            margin-bottom: 5px;
             display: grid;
             grid-auto-flow: row;
             gap: 7px;
@@ -431,6 +433,9 @@
             position: center;
             align-items: center;
             border: 4px solid #8d22bc;
+            display: flex;
+            flex-grow: 1;
+            place-content: center;
         }
         .button:hover{
             background:#ffe600;
