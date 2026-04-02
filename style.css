@@ -527,8 +527,7 @@
             align-items: center;
             display: flex;
             position: center;
-        }
-
+            
         .profile-img {
             width: 100px;
             height: 100px;
