@@ -481,6 +481,8 @@
         }
         @media (max-width: 768px) {
         }
+        @media (font-family:'Press Start 2P', monospace) {
+        }
         .profile-container {
         display: flex; 
         align-items: center; /* Aligns items vertically */
