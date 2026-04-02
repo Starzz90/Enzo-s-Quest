@@ -479,6 +479,28 @@
             
         }
         @media (max-width: 768px) {
+            .profile-container {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                gap: 12px;
+            }
+            .profile-pic {
+                margin: 0 auto 12px;
+                width: 180px;
+                height: 180px;
+            }
+            .move-bottom {
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                gap: 0.35rem;
+            }
+            .move-bottom p {
+                width: 100%;
+                margin: 4px 0;
+            }
         }
         .profile-container {
         display: flex; 
@@ -505,7 +527,8 @@
             align-items: center;
             display: flex;
             position: center;
-            
+        }
+
         .profile-img {
             width: 100px;
             height: 100px;
@@ -589,4 +612,11 @@
             transform : scale(1.2);
             transition: transform 0.3s;
             }
+        .move-bottom{
+            display: flex;
+            flex-wrap: wrap;
+            padding: 10px;
+            flex-grow: 1;
+            place-content: center;
+        }
         
