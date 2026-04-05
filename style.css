@@ -16,6 +16,15 @@ body {
   animation: fadeIn 1s ease-in-out;
   -webkit-animation: fadeIn 1s ease-in-out;
 }
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none !important;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -74,48 +83,6 @@ strong {
   height: 150px;
   border-radius: 50%;
   margin: 20px;
-}
-.inline-link {
-  font-size: 12px;
-  display: inline-block;
-  padding: 7px 5px;
-  margin: 5px;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-  transition:
-    background 0.3s,
-    color 0.3s,
-    font-style 0.3s;
-  font-style: normal;
-  font-family: "Press Start 2P";
-}
-@keyframes glow-text {
-  0% {
-    text-shadow:
-      0 0 0px rgba(255, 255, 255, 0),
-      0 0 0px rgba(138, 43, 226, 0);
-  }
-  50% {
-    text-shadow:
-      0 0 6px rgba(255, 255, 255, 0.9),
-      0 0 14px rgba(138, 43, 226, 0.6);
-  }
-  100% {
-    text-shadow:
-      0 0 0px rgba(255, 255, 255, 0),
-      0 0 0px rgba(138, 43, 226, 0);
-  }
-}
-
-.inline-link:hover {
-  color: #ffffff;
-  font-family: "Press Start 2P";
-  font-style: italic;
-  transform: scale(1.02);
-  scale: 1.05;
-  transition: transform 0.3s;
-  animation: glow-text 1s ease-in-out infinite;
 }
 @keyframes pulse {
   from {
@@ -613,7 +580,6 @@ p {
   animation: fadeIn 0.5s ease-in-out;
 }
 
-
 .modal-content {
   background-color: rgba(36, 0, 68, 0.9);
   margin: 5% auto;
@@ -629,7 +595,6 @@ p {
   flex-wrap: wrap;
   overflow-x: hidden;
 }
-
 
 .close:hover,
 .close:focus {
