@@ -2,20 +2,40 @@ function Page() {
   window.location.href = "https://starzz90.github.io/More-Achivements-section/";
 }
 
-// Modal functions
 function openMythicalModal() {
   document.getElementById("mythicalModal").style.display = "block";
 }
 
-function closeMythicalModal() {
-  document.getElementById("mythicalModal").style.display = "none";
+function openLegendaryModal() {
+  document.getElementById("LegendaryModal").style.display = "block";
+}
+
+function openRareModal() {
+  document.getElementById("RareModal").style.display = "block";
+}
+
+function openUncommonModal() {
+  document.getElementById("UncommonModal").style.display = "block";
 }
 
 // Close modal when clicking outside
 window.onclick = function (event) {
-  var modal = document.getElementById("Modal");
-  if (event.target == modal) {
-    modal.style.display = "none";
+  var mythicalModal = document.getElementById("mythicalModal");
+  var legendaryModal = document.getElementById("LegendaryModal");
+  var rareModal = document.getElementById("RareModal");
+  var uncommonModal = document.getElementById("UncommonModal");
+
+  if (event.target == mythicalModal) {
+    mythicalModal.style.display = "none";
+  }
+  if (event.target == legendaryModal) {
+    legendaryModal.style.display = "none";
+  }
+  if (event.target == rareModal) {
+    rareModal.style.display = "none";
+  }
+  if (event.target == uncommonModal) {
+    uncommonModal.style.display = "none";
   }
 };
 
