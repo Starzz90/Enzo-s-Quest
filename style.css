@@ -371,26 +371,6 @@ p {
   place-content: center;
   margin-bottom: 5px;
 }
-.Small-block:hover {
-  background-color: #8d22bc;
-  background-size: contain;
-  margin-right: 5px;
-  text-align: center;
-  border: 4px solid #323232;
-  image-rendering: pixelated;
-  padding: 5px;
-  border-radius: 10px;
-  margin-top: 10px;
-  animation: fadeIn 1.5s ease-in-out;
-  line-height: 1.5;
-  border-image-slice: 1;
-  margin-bottom: 10px;
-  color: #000000;
-  display: grid;
-  gap: 5px;
-  grid-auto-flow: column;
-  overflow-x: hidden;
-}
 .Division {
   display: grid;
   gap: 6px;
@@ -627,7 +607,6 @@ p {
   border: 4px solid #6700ac;
   border-radius: 15px;
   image-rendering: pixelated;
-  animation: bounce 0.5s ease-in-out;
   position: relative;
   color: #ffffff;
   font-family: "Press Start 2P", monospace;
@@ -667,4 +646,23 @@ p {
   color: black;
   transform: scale(1.02);
   box-shadow: 0 0 20px rgba(255, 230, 0, 0.8);
+}
+
+.count{
+  background: linear-gradient(45deg, #8a2be2, #b026ff);
+  color: white;
+  padding: 10px 20px;
+  border: 4px solid #220033;
+  border-radius: 10px;
+  font-family: "Press Start 2P", monospace;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  image-rendering: pixelated;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 0 10px rgba(138, 43, 226, 0.5);
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
 }

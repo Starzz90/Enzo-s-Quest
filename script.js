@@ -17,6 +17,24 @@ function openRareModal() {
 function openUncommonModal() {
   document.getElementById("UncommonModal").style.display = "block";
 }
+function openGold() {
+  document.getElementById("GoldModal").style.display = "block";
+}
+function openSilver() {
+  document.getElementById("SilverModal").style.display = "block";
+}
+function openBronze() {
+  document.getElementById("BronzeModal").style.display = "block";
+}
+function closeGold() {
+  document.getElementById("GoldModal").style.display = "none";
+}
+function closeSilver() {
+  document.getElementById("SilverModal").style.display = "none";
+}
+function closeBronze() {
+  document.getElementById("BronzeModal").style.display = "none";
+}
 
 // Close modal when clicking outside
 window.onclick = function (event) {
@@ -24,6 +42,9 @@ window.onclick = function (event) {
   var legendaryModal = document.getElementById("LegendaryModal");
   var rareModal = document.getElementById("RareModal");
   var uncommonModal = document.getElementById("UncommonModal");
+  var goldModal = document.getElementById("GoldModal");
+  var silverModal = document.getElementById("SilverModal");
+  var bronzeModal = document.getElementById("BronzeModal");
 
   if (event.target == mythicalModal) {
     mythicalModal.style.display = "none";
@@ -36,6 +57,15 @@ window.onclick = function (event) {
   }
   if (event.target == uncommonModal) {
     uncommonModal.style.display = "none";
+  }
+  if (event.target == goldModal) {
+    goldModal.style.display = "none";
+  }
+  if (event.target == silverModal) {
+    silverModal.style.display = "none";
+  }
+  if (event.target == bronzeModal) {
+    bronzeModal.style.display = "none";
   }
 };
 
