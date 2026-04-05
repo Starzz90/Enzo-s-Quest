@@ -13,7 +13,7 @@ function closeMythicalModal() {
 
 // Close modal when clicking outside
 window.onclick = function (event) {
-  var modal = document.getElementById("mythicalModal");
+  var modal = document.getElementById("Modal");
   if (event.target == modal) {
     modal.style.display = "none";
   }
