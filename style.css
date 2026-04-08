@@ -618,6 +618,7 @@ p {
   letter-spacing: 1px;
   box-shadow: 0 0 10px rgba(138, 43, 226, 0.5);
   flex-grow: 1;
+  margin-top: 8px;
 }
 
 .modal-button:hover {
@@ -625,4 +626,10 @@ p {
   color: black;
   transform: scale(1.02);
   box-shadow: 0 0 20px rgba(255, 230, 0, 0.8);
+}
+.down{
+  font-size: 23px;
+  align-items: center;
+  justify-content: center;
+
 }
